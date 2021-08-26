@@ -15,16 +15,21 @@
     <div class='title'>Weather</div>
   </div>
   <form class='searchForm' method='post'>
-    <input class='search' type="search">
+    <input class='search' type="search" placeholder="Search city here...">
     <span class="icon material-icons submit">search</span>
   </form>
-  <div class='login'>
-    <a href='#'>C / F</a>
+  <div class='tempChange'>
+    C / F
   </div>
 </div>
 <div class="alert">Invalid City Name</div>
-
-<div class='container'>
+<div class="loader-wrapper">
+  <div class="loader"></div>
 </div>
+<div class='flex-div group'>
+  <div class='container'></div>
+  <div class="extra flex-div"></div>
+</div>
+
 </body>
 </html>
